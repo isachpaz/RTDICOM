@@ -3,24 +3,44 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RtDicom.RtStructureLib", "RtDicom.RtStructureLib\RtDicom.RtStructureLib.csproj", "{EA6EDEA5-AD9C-4B2A-8B2C-8F79015C8471}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RtDicom.RtStructureLib", "RtDicom.RtStructureLib\RtDicom.RtStructureLib.csproj", "{EA6EDEA5-AD9C-4B2A-8B2C-8F79015C8471}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RtDicom.RtStructureLibTests", "RtDicom.RtStructureLibTests\RtDicom.RtStructureLibTests.csproj", "{2FF5CCB3-A688-4F07-AB1B-BBC3FB57049C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RtDicom.RtStructureLibTests", "RtDicom.RtStructureLibTests\RtDicom.RtStructureLibTests.csproj", "{2FF5CCB3-A688-4F07-AB1B-BBC3FB57049C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RtDicom.Pet3DVolume", "RtDicom.Pet3DVolume\RtDicom.Pet3DVolume.csproj", "{E5652E50-3189-4643-9A34-A876ED1DB13D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EA6EDEA5-AD9C-4B2A-8B2C-8F79015C8471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EA6EDEA5-AD9C-4B2A-8B2C-8F79015C8471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA6EDEA5-AD9C-4B2A-8B2C-8F79015C8471}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EA6EDEA5-AD9C-4B2A-8B2C-8F79015C8471}.Debug|x64.Build.0 = Debug|Any CPU
 		{EA6EDEA5-AD9C-4B2A-8B2C-8F79015C8471}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA6EDEA5-AD9C-4B2A-8B2C-8F79015C8471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA6EDEA5-AD9C-4B2A-8B2C-8F79015C8471}.Release|x64.ActiveCfg = Release|Any CPU
+		{EA6EDEA5-AD9C-4B2A-8B2C-8F79015C8471}.Release|x64.Build.0 = Release|Any CPU
 		{2FF5CCB3-A688-4F07-AB1B-BBC3FB57049C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2FF5CCB3-A688-4F07-AB1B-BBC3FB57049C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FF5CCB3-A688-4F07-AB1B-BBC3FB57049C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2FF5CCB3-A688-4F07-AB1B-BBC3FB57049C}.Debug|x64.Build.0 = Debug|Any CPU
 		{2FF5CCB3-A688-4F07-AB1B-BBC3FB57049C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FF5CCB3-A688-4F07-AB1B-BBC3FB57049C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FF5CCB3-A688-4F07-AB1B-BBC3FB57049C}.Release|x64.ActiveCfg = Release|Any CPU
+		{2FF5CCB3-A688-4F07-AB1B-BBC3FB57049C}.Release|x64.Build.0 = Release|Any CPU
+		{E5652E50-3189-4643-9A34-A876ED1DB13D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5652E50-3189-4643-9A34-A876ED1DB13D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5652E50-3189-4643-9A34-A876ED1DB13D}.Debug|x64.ActiveCfg = Debug|x64
+		{E5652E50-3189-4643-9A34-A876ED1DB13D}.Debug|x64.Build.0 = Debug|x64
+		{E5652E50-3189-4643-9A34-A876ED1DB13D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5652E50-3189-4643-9A34-A876ED1DB13D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5652E50-3189-4643-9A34-A876ED1DB13D}.Release|x64.ActiveCfg = Release|x64
+		{E5652E50-3189-4643-9A34-A876ED1DB13D}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
