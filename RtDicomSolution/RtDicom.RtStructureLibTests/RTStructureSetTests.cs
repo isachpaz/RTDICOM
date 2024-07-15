@@ -54,6 +54,7 @@ public class RTStructureSetTests
         var ss = RtStructureSet.Factory.From(rsFileInfo);
         
         var gtv = ss.Structures.FirstOrDefault(x=>x.Id == "GTV");
+        var color = gtv?.Color;
         foreach (SliceContour sliceContour in gtv!.Contours)
         {
             
